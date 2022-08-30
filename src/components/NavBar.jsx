@@ -40,6 +40,8 @@ const NavBar = () => {
               <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Busqueda en Tienda</button>
            </form>
           </div>
+          <img src={require('../imagenes/carro.png')} alt="imagen logo" className="img-fluid" width="50" />
+
         </nav>
 
         
