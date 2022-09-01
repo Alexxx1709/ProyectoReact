@@ -6,13 +6,13 @@ import ItemCount from './components/ItemCount';
 
 function App() {
 
-  const encabezado = '¡¡ Contador !!'
+  const encabezado = '¡¡ Sweet Guitar !!'
 
   return (
     <>
       <NavBar/>
       <ItemListContainer saludo = {encabezado}/>
-      <ItemCount/>
+      
     </>
   );
 }
